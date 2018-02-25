@@ -32,6 +32,7 @@
         alert(a);
 
     </script>
+    <hr>
     <script type="text/javascript">
 
         var a = 10;
@@ -46,6 +47,7 @@
         document.write("Number.POSITIVE_INFINITY = " + Number.POSITIVE_INFINITY + "<br/>");
         document.write("Number.NEGATIVE_INFINITY = " + Number.NEGATIVE_INFINITY + "<br/>");
     </script>
+        <hr>
         <title>Строки, конкатенация</title>
 
 <script type="text/javascript">
@@ -76,6 +78,7 @@
     document.write(str / "2" + "<br/>");
 
 </script>
+<hr>
 <script type="text/javascript">
 
     var bool1 = true;
@@ -91,6 +94,7 @@
     document.write(bool2 + "<br/>");
 
 </script>
+<hr>
  <title>Undefined</title>
 
  <script type="text/javascript">
@@ -101,6 +105,7 @@
      alert(b); // Ошибка!
 
  </script>
+ <hr>
 <title>Null</title>
 
 <script type="text/javascript">
@@ -111,7 +116,7 @@
     alert(b); // Ошибка!
 
 </script>
-
+<hr>
 <title>Различия между типами</title>
 
 <script type="text/javascript">
@@ -123,6 +128,7 @@
     document.write(b);
 
 </script>
+<hr>
 <title>Интеграция JavaScript</title>
 
 <script type="text/javascript">
@@ -146,7 +152,9 @@
              document.writeln(b);
              document.writeln(c);
          </script> 
-</pre
+</pre>
+
+<hr>
 <title> Интеграция JavaScript</title>
 
     <script type="text/javascript">
@@ -161,7 +169,8 @@
         alert(c);
 
     </script>
-    <title>Метод prompt()</title>
+   <hr>
+   <title>Метод prompt()</title>
 
     <script type="text/javascript">
 
@@ -169,6 +178,7 @@
         alert(a);
 
     </script>
+ <hr>
  <title>Метод prompt()</title>
 
  <script type="text/javascript">
@@ -178,6 +188,7 @@
      document.write(conf);
 
  </script>
+ <hr>
  <title>Пример применения методов</title>
 
  <script type="text/javascript">
@@ -196,7 +207,35 @@
      result = integerX + integerY;
      document.write(result);
 
+</script>
+<hr>
+
+<title>Арифметические операторы</title>
+
+<script type="text/javascript">
+
+    var a = 9;
+    var b = 5;
+    var result;
+
+    // Сложение (+)
+    result = a + b; // в данном случае + арифметическое сложение.
+    document.write("a + b = " + result + "<br />"); // в данном случае оператор + выполняет операцию конкатенации.
+
+    // Вычитание (-)
+    result = a - b; // в случае если a или b нечисловые, оператор пытается преобразовать их в числа.
+    document.write("a - b = " + result + "<br />");
+
+    // Умножение (*)
+    result = a * b;
+    document.write("a * b = " + result + "<br />");
+
+    // Деление (/)
+    result = a / b;
+    document.write("a / b = " + result + "<br />"); // деление на 0 дает +/- бесконечность. 0/0 дает NaN.
+
  </script>
+
 
     </script>
 
